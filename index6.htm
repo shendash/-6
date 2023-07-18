@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> программа, которая находит среднее арифметическое всех нечетных чисел от 1 до 10</title>
+</head>
+<body>
+    <script>
+       let x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+       let y;
+       let sum = 0;
+       let g = 0;
+       for(let i = 0; i < x.length; i++)
+       {
+        //alert(x[i]);
+        y = x[i];
+        if(y%2!=0)
+        {
+            sum+=y;
+            g+=1;
+            
+        }
+       }
+       alert(sum/g);
+    </script>
+</body>
+</html>
